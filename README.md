@@ -79,8 +79,6 @@ Create a local `.env` file:
 GEMINI_API_KEY=your_api_key_here
 ```
 
-Do not commit this file.
-
 ## Usage
 
 Run the agent with a prompt:
