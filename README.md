@@ -115,22 +115,6 @@ Possible risks include:
 
 Use this only in a disposable learning environment.
 
-## Sensitive files / cleanup notes
-
-A quick repository review did not show an uploaded `.env` file, and `.gitignore` correctly excludes `.env`, `.venv`, Python cache files, and build artifacts.
-
-Files that are okay to keep:
-
-- `pyproject.toml` because it documents the project dependencies
-- `uv.lock` because it makes dependency installs reproducible
-- `.python-version` because it records the Python version
-- `calculator/` because it is the Boot.dev demo target used by the agent
-
-Things to double-check before making the repository public:
-
-- make sure no `.env` file or API key was ever committed in the Git history
-- make sure no personal notes, real credentials, or private test data are added later
-- consider adding stronger sandboxing before using the agent on any real project
 
 ## Status
 
